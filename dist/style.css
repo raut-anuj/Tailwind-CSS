@@ -777,6 +777,14 @@ video {
   width: 1rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -791,6 +799,10 @@ video {
 
 .cursor-wait {
   cursor: wait;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -1143,6 +1155,14 @@ video {
 
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:justify-center {
